@@ -28,7 +28,7 @@ export class Game {
     // enable the calculate score button
     document.getElementById('calculate')!.removeAttribute('disabled');
   }
-
+  
   calculateScore(): void {
 
     let score: number = 0;
@@ -57,5 +57,3 @@ export class Game {
     document.getElementById('calculate')!.setAttribute('disabled', 'true');
   }  
 }
-
-
